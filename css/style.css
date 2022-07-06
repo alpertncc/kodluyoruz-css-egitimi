@@ -1,0 +1,76 @@
+/*   TERCİH EDİLMEYEN BİR KULLANIM ŞEMASI
+
+************ Main Rules ****************
+
+body{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    color:blue;
+    font-size: 40px;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color:grey; 
+    font-size:20px ;
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    color: aqua;
+    font-size: 50px;
+} */
+ 
+
+/* TERCİH EDİLEN YAPI BU ŞEKİLDEDİR */
+
+
+#siyah-ustu-kirmizi-buyuk {
+    background-color: black;
+    color: red;
+    font-size: x-large;
+    font-family: 'Nunito', sans-serif;
+
+}
+ 
+.background-1 {
+    background-color: black;
+}
+
+.tx-white {
+    color: white;
+}
+
+.tx-aqua {
+    color: aqua;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+
+/* CSS Selectors */
+
+
+/* .class.class yapısını kullanırken iki class yapısı da aynı element içerisinde belirtilmek zorunda. */
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+/* .class .class yapısı kullanılırken ikinci class yapısı birinci class yapısının kullanıldığı elementin altındaki bir elementin içerisinde kullanılmalı */
+
+.color-blue .fw-bold {
+    color: blue;
+    font-weight: bold;
+}
