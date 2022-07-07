@@ -1,0 +1,26 @@
+/* GENEL ETİKETLER */
+
+body {
+    text-align: center ;
+    background-color: black;
+    color: white;
+}
+
+/***** Class Etiketleri ******/
+
+
+.c-aqua {
+    color: aqua;
+}
+
+.c-red {
+    color: red;
+}
+
+.ff-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.ff-roboto {
+    font-family: 'Roboto', sans-serif;
+}
