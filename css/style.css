@@ -74,3 +74,67 @@ h1{
     color: blue;
     font-weight: bold;
 }
+
+/* first child  */
+
+ul > li:first-child {
+    color: aquamarine;
+}
+
+/* last child */
+
+li:last-child {
+    color: aquamarine;
+}
+
+/* nth child()  - parantez için odd ya da even kullanılabilir. Ya da matematiksel formül kullanılabilir 3n+1 gibi. */
+
+li:nth-child(3) {
+    color: red;
+}
+
+/* Bu şekilde name attribute alan tüm elementler etkilenir. -- SATIR 55-59*/
+
+[name]{
+    color: orange;
+  }
+
+/* ~= ifadesi ile title özelliği "isim" içeren divlere erişme -- SATIR 5153*/
+
+aman[title~="isim"] {
+    color: orange;
+  }
+
+/*  ^= ifadesi ile href özelliği "https" ile başlayan a etiketlerine erişme -- SATIR 46-48 */
+
+a[href ^= "https"] {
+    color: palegreen;
+  }
+
+/* *= ifadesi ile href özelliği "http" içeren a etiketlerine erişme -- SATIR 42-44 */
+
+a[href *= "http"] {
+    color: palegreen;
+  }
+
+/* $= ifadesi ile class özelliği sonunda "test" içeren divlere erişme -- SATIR 36-39*/
+
+div[class$="test"] {
+    background: yellow;
+  }
+
+/* Pseudo Classes - selector:pseudo class{} */
+
+/* :link -- Daha önce tarayıcıda açılmamış linke CSS uygular. Not: Etkisini görmek için tarayıcıya geçmişi temizlemek gerekebilir. - SATIR 33*/
+
+a#google:link {
+    color: red;
+  }
+
+/* :hover -- Seçici ile işaretlenen etiketin üzerine mouse ile gelindiğinde CSS uygalanır ve mouse üzerinde değilken etki kaybolur. - SATIR 32 */
+
+a.test:hover {
+    color: red;
+  }
+
+  
